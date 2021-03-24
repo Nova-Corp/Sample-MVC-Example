@@ -24,7 +24,7 @@
 		84DCF45A260ADA0500DBA223 /* FetchMusicDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF459260ADA0500DBA223 /* FetchMusicDataViewController.swift */; };
 		84DCF45D260ADB4C00DBA223 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF45C260ADB4C00DBA223 /* APIManager.swift */; };
 		84DCF460260ADD3A00DBA223 /* MusicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF45F260ADD3A00DBA223 /* MusicDetailsViewController.swift */; };
-		84DCF462260B060A00DBA223 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF461260B060A00DBA223 /* README.md */; };
+		84DCF464260B0BFB00DBA223 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF463260B0BFB00DBA223 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +47,7 @@
 		84DCF459260ADA0500DBA223 /* FetchMusicDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchMusicDataViewController.swift; sourceTree = "<group>"; };
 		84DCF45C260ADB4C00DBA223 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		84DCF45F260ADD3A00DBA223 /* MusicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailsViewController.swift; sourceTree = "<group>"; };
-		84DCF461260B060A00DBA223 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		84DCF463260B0BFB00DBA223 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				84DCF45E260ADD2900DBA223 /* MusicDetailsView */,
 				84DCF446260AD6E000DBA223 /* Storyboard */,
 				84DCF443260AD6A500DBA223 /* Global */,
-				84DCF461260B060A00DBA223 /* README.md */,
+				84DCF463260B0BFB00DBA223 /* README.md */,
 			);
 			path = "Sample-MVC-Example";
 			sourceTree = "<group>";
@@ -225,9 +225,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DCF462260B060A00DBA223 /* README.md in Resources */,
 				84DCF43C260AD69900DBA223 /* LaunchScreen.storyboard in Resources */,
 				84DCF439260AD69900DBA223 /* Assets.xcassets in Resources */,
+				84DCF464260B0BFB00DBA223 /* README.md in Resources */,
 				84DCF437260AD69700DBA223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
