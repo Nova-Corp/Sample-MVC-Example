@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		84DCF430260AD69700DBA223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF42F260AD69700DBA223 /* AppDelegate.swift */; };
 		84DCF432260AD69700DBA223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF431260AD69700DBA223 /* SceneDelegate.swift */; };
-		84DCF434260AD69700DBA223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF433260AD69700DBA223 /* ViewController.swift */; };
+		84DCF434260AD69700DBA223 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF433260AD69700DBA223 /* MusicListViewController.swift */; };
 		84DCF437260AD69700DBA223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF435260AD69700DBA223 /* Main.storyboard */; };
 		84DCF439260AD69900DBA223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF438260AD69900DBA223 /* Assets.xcassets */; };
 		84DCF43C260AD69900DBA223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF43A260AD69900DBA223 /* LaunchScreen.storyboard */; };
+		84DCF448260AD81F00DBA223 /* MusicListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF447260AD81F00DBA223 /* MusicListModel.swift */; };
+		84DCF44A260AD87400DBA223 /* MusicListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF449260AD87400DBA223 /* MusicListTableViewCell.swift */; };
+		84DCF44C260AD96C00DBA223 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF44B260AD96C00DBA223 /* Constant.swift */; };
+		84DCF453260AD99800DBA223 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF44E260AD99800DBA223 /* UIImageView+Extension.swift */; };
+		84DCF454260AD99800DBA223 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF44F260AD99800DBA223 /* UIViewController+Extensions.swift */; };
+		84DCF455260AD99800DBA223 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF450260AD99800DBA223 /* UILabel+Extension.swift */; };
+		84DCF456260AD99800DBA223 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF451260AD99800DBA223 /* UIView+Extension.swift */; };
+		84DCF457260AD99800DBA223 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF452260AD99800DBA223 /* String+Extension.swift */; };
+		84DCF45A260ADA0500DBA223 /* FetchMusicDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF459260ADA0500DBA223 /* FetchMusicDataViewController.swift */; };
+		84DCF45D260ADB4C00DBA223 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF45C260ADB4C00DBA223 /* APIManager.swift */; };
+		84DCF460260ADD3A00DBA223 /* MusicDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCF45F260ADD3A00DBA223 /* MusicDetailsViewController.swift */; };
+		84DCF462260B060A00DBA223 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84DCF461260B060A00DBA223 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84DCF42C260AD69700DBA223 /* Sample-MVC-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample-MVC-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DCF42F260AD69700DBA223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DCF431260AD69700DBA223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84DCF433260AD69700DBA223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DCF433260AD69700DBA223 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
 		84DCF436260AD69700DBA223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DCF438260AD69900DBA223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DCF43B260AD69900DBA223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DCF43D260AD69900DBA223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DCF447260AD81F00DBA223 /* MusicListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListModel.swift; sourceTree = "<group>"; };
+		84DCF449260AD87400DBA223 /* MusicListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListTableViewCell.swift; sourceTree = "<group>"; };
+		84DCF44B260AD96C00DBA223 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		84DCF44E260AD99800DBA223 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		84DCF44F260AD99800DBA223 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		84DCF450260AD99800DBA223 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		84DCF451260AD99800DBA223 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		84DCF452260AD99800DBA223 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		84DCF459260ADA0500DBA223 /* FetchMusicDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchMusicDataViewController.swift; sourceTree = "<group>"; };
+		84DCF45C260ADB4C00DBA223 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		84DCF45F260ADD3A00DBA223 /* MusicDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDetailsViewController.swift; sourceTree = "<group>"; };
+		84DCF461260B060A00DBA223 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,91 @@
 		84DCF42E260AD69700DBA223 /* Sample-MVC-Example */ = {
 			isa = PBXGroup;
 			children = (
-				84DCF42F260AD69700DBA223 /* AppDelegate.swift */,
-				84DCF431260AD69700DBA223 /* SceneDelegate.swift */,
-				84DCF433260AD69700DBA223 /* ViewController.swift */,
-				84DCF435260AD69700DBA223 /* Main.storyboard */,
+				84DCF444260AD6B200DBA223 /* Delegate */,
+				84DCF45B260ADB4C00DBA223 /* Service */,
+				84DCF458260AD9F000DBA223 /* FetchMusic */,
+				84DCF445260AD6BD00DBA223 /* MusicList */,
+				84DCF45E260ADD2900DBA223 /* MusicDetailsView */,
+				84DCF446260AD6E000DBA223 /* Storyboard */,
+				84DCF443260AD6A500DBA223 /* Global */,
+				84DCF461260B060A00DBA223 /* README.md */,
+			);
+			path = "Sample-MVC-Example";
+			sourceTree = "<group>";
+		};
+		84DCF443260AD6A500DBA223 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF44B260AD96C00DBA223 /* Constant.swift */,
+				84DCF44D260AD99800DBA223 /* Extensions */,
 				84DCF438260AD69900DBA223 /* Assets.xcassets */,
 				84DCF43A260AD69900DBA223 /* LaunchScreen.storyboard */,
 				84DCF43D260AD69900DBA223 /* Info.plist */,
 			);
-			path = "Sample-MVC-Example";
+			path = Global;
+			sourceTree = "<group>";
+		};
+		84DCF444260AD6B200DBA223 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF42F260AD69700DBA223 /* AppDelegate.swift */,
+				84DCF431260AD69700DBA223 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		84DCF445260AD6BD00DBA223 /* MusicList */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF449260AD87400DBA223 /* MusicListTableViewCell.swift */,
+				84DCF433260AD69700DBA223 /* MusicListViewController.swift */,
+			);
+			path = MusicList;
+			sourceTree = "<group>";
+		};
+		84DCF446260AD6E000DBA223 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF435260AD69700DBA223 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84DCF44D260AD99800DBA223 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF44E260AD99800DBA223 /* UIImageView+Extension.swift */,
+				84DCF44F260AD99800DBA223 /* UIViewController+Extensions.swift */,
+				84DCF450260AD99800DBA223 /* UILabel+Extension.swift */,
+				84DCF451260AD99800DBA223 /* UIView+Extension.swift */,
+				84DCF452260AD99800DBA223 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84DCF458260AD9F000DBA223 /* FetchMusic */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF447260AD81F00DBA223 /* MusicListModel.swift */,
+				84DCF459260ADA0500DBA223 /* FetchMusicDataViewController.swift */,
+			);
+			path = FetchMusic;
+			sourceTree = "<group>";
+		};
+		84DCF45B260ADB4C00DBA223 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF45C260ADB4C00DBA223 /* APIManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		84DCF45E260ADD2900DBA223 /* MusicDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				84DCF45F260ADD3A00DBA223 /* MusicDetailsViewController.swift */,
+			);
+			path = MusicDetailsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DCF462260B060A00DBA223 /* README.md in Resources */,
 				84DCF43C260AD69900DBA223 /* LaunchScreen.storyboard in Resources */,
 				84DCF439260AD69900DBA223 /* Assets.xcassets in Resources */,
 				84DCF437260AD69700DBA223 /* Main.storyboard in Resources */,
@@ -138,9 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DCF434260AD69700DBA223 /* ViewController.swift in Sources */,
+				84DCF434260AD69700DBA223 /* MusicListViewController.swift in Sources */,
+				84DCF457260AD99800DBA223 /* String+Extension.swift in Sources */,
+				84DCF44A260AD87400DBA223 /* MusicListTableViewCell.swift in Sources */,
+				84DCF453260AD99800DBA223 /* UIImageView+Extension.swift in Sources */,
 				84DCF430260AD69700DBA223 /* AppDelegate.swift in Sources */,
+				84DCF454260AD99800DBA223 /* UIViewController+Extensions.swift in Sources */,
+				84DCF460260ADD3A00DBA223 /* MusicDetailsViewController.swift in Sources */,
 				84DCF432260AD69700DBA223 /* SceneDelegate.swift in Sources */,
+				84DCF448260AD81F00DBA223 /* MusicListModel.swift in Sources */,
+				84DCF44C260AD96C00DBA223 /* Constant.swift in Sources */,
+				84DCF456260AD99800DBA223 /* UIView+Extension.swift in Sources */,
+				84DCF45D260ADB4C00DBA223 /* APIManager.swift in Sources */,
+				84DCF455260AD99800DBA223 /* UILabel+Extension.swift in Sources */,
+				84DCF45A260ADA0500DBA223 /* FetchMusicDataViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H922B55M85;
-				INFOPLIST_FILE = "Sample-MVC-Example/Info.plist";
+				INFOPLIST_FILE = "Sample-MVC-Example/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H922B55M85;
-				INFOPLIST_FILE = "Sample-MVC-Example/Info.plist";
+				INFOPLIST_FILE = "Sample-MVC-Example/Global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
